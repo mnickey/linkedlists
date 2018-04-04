@@ -68,6 +68,8 @@ class LinkedList:
         prev.next = cur_node.next
         cur_node = None
 
+# Now that the classes and methods have been defined, we can use them.
+# Adding items to our linked list
 llist = LinkedList()
 llist.append(1)
 llist.append(12)
@@ -79,6 +81,7 @@ llist.append(7)
 llist.print_list()
 print("")
 
+# Removing items from our linked list
 llist.delete_node(12)
 llist.delete_node(4)
 llist.delete_node(6)
